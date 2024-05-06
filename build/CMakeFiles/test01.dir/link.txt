@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test01.dir/test01.cpp.o -o test01  _deps/leveldb-build/libleveldb.a

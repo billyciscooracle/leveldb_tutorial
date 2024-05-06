@@ -1,0 +1,1812 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      The system is: Darwin - 23.4.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'System' not found
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/3.29.1/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'c++' not found
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/3.29.1/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-t1wzKq"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-t1wzKq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-t1wzKq'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ba068/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ba068.dir/build.make CMakeFiles/cmTC_ba068.dir/build
+        Building C object CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-darwin23.4.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-t1wzKq -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-t1wzKq -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.4.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_ba068
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba068.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o -o cmTC_ba068
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-darwin23.4.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o cmTC_ba068 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1053.12
+        BUILD 15:45:29 Feb  3 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:134 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-t1wzKq']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ba068/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ba068.dir/build.make CMakeFiles/cmTC_ba068.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: arm64-apple-darwin23.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-t1wzKq -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-t1wzKq -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.4.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_ba068]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba068.dir/link.txt --verbose=1]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o -o cmTC_ba068]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: arm64-apple-darwin23.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o cmTC_ba068 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [14.0.0] ==> ignore
+          arg [14.4] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_ba068] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_ba068.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Running the C compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1053.12
+      BUILD 15:45:29 Feb  3 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-OxgoDE"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-OxgoDE"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-OxgoDE'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cf766/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cf766.dir/build.make CMakeFiles/cmTC_cf766.dir/build
+        Building CXX object CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-darwin23.4.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-OxgoDE -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-OxgoDE -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.4.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_cf766
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf766.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cf766
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-darwin23.4.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o cmTC_cf766 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1053.12
+        BUILD 15:45:29 Feb  3 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:134 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1]
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-OxgoDE']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cf766/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cf766.dir/build.make CMakeFiles/cmTC_cf766.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: arm64-apple-darwin23.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-OxgoDE -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-OxgoDE -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.4.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_cf766]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf766.dir/link.txt --verbose=1]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cf766]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: arm64-apple-darwin23.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o cmTC_cf766 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [14.0.0] ==> ignore
+          arg [14.4] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_cf766] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_cf766.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1053.12
+      BUILD 15:45:29 Feb  3 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "build/_deps/leveldb-src/CMakeLists.txt:38 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-ssNapD"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-ssNapD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-ssNapD'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1bab9/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1bab9.dir/build.make CMakeFiles/cmTC_1bab9.dir/build
+        Building C object CMakeFiles/cmTC_1bab9.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -std=c11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_1bab9.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_1bab9.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_1bab9.dir/CheckIncludeFile.c.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-ssNapD/CheckIncludeFile.c
+        Linking C executable cmTC_1bab9
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bab9.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1bab9.dir/CheckIncludeFile.c.o -o cmTC_1bab9
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "build/_deps/leveldb-src/CMakeLists.txt:41 (check_library_exists)"
+    checks:
+      - "Looking for crc32c_value in crc32c"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-Be1zdQ"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-Be1zdQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CRC32C"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-Be1zdQ'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dcceb/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dcceb.dir/build.make CMakeFiles/cmTC_dcceb.dir/build
+        Building C object CMakeFiles/cmTC_dcceb.dir/CheckFunctionExists.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crc32c_value -std=c11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_dcceb.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_dcceb.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_dcceb.dir/CheckFunctionExists.c.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-Be1zdQ/CheckFunctionExists.c
+        Linking C executable cmTC_dcceb
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcceb.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=crc32c_value -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_dcceb.dir/CheckFunctionExists.c.o -o cmTC_dcceb  -lcrc32c
+        ld: library 'crc32c' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_dcceb] Error 1
+        make: *** [cmTC_dcceb/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "build/_deps/leveldb-src/CMakeLists.txt:42 (check_library_exists)"
+    checks:
+      - "Looking for snappy_compress in snappy"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-fmMudu"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-fmMudu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_SNAPPY"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-fmMudu'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_41c3b/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_41c3b.dir/build.make CMakeFiles/cmTC_41c3b.dir/build
+        Building C object CMakeFiles/cmTC_41c3b.dir/CheckFunctionExists.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snappy_compress -std=c11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_41c3b.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_41c3b.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_41c3b.dir/CheckFunctionExists.c.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-fmMudu/CheckFunctionExists.c
+        Linking C executable cmTC_41c3b
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41c3b.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snappy_compress -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_41c3b.dir/CheckFunctionExists.c.o -o cmTC_41c3b  -lsnappy
+        ld: library 'snappy' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_41c3b] Error 1
+        make: *** [cmTC_41c3b/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "build/_deps/leveldb-src/CMakeLists.txt:43 (check_library_exists)"
+    checks:
+      - "Looking for zstd_compress in zstd"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-7OV9tz"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-7OV9tz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_ZSTD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-7OV9tz'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e255d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e255d.dir/build.make CMakeFiles/cmTC_e255d.dir/build
+        Building C object CMakeFiles/cmTC_e255d.dir/CheckFunctionExists.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=zstd_compress -std=c11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_e255d.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_e255d.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_e255d.dir/CheckFunctionExists.c.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-7OV9tz/CheckFunctionExists.c
+        Linking C executable cmTC_e255d
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e255d.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=zstd_compress -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e255d.dir/CheckFunctionExists.c.o -o cmTC_e255d  -lzstd
+        ld: library 'zstd' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_e255d] Error 1
+        make: *** [cmTC_e255d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "build/_deps/leveldb-src/CMakeLists.txt:44 (check_library_exists)"
+    checks:
+      - "Looking for malloc in tcmalloc"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-kQV2f3"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-kQV2f3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_TCMALLOC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-kQV2f3'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_48f59/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_48f59.dir/build.make CMakeFiles/cmTC_48f59.dir/build
+        Building C object CMakeFiles/cmTC_48f59.dir/CheckFunctionExists.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc -std=c11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_48f59.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_48f59.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_48f59.dir/CheckFunctionExists.c.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-kQV2f3/CheckFunctionExists.c
+        /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-kQV2f3/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'malloc' [-Wincompatible-library-redeclaration]
+          CHECK_FUNCTION_EXISTS(void);
+          ^
+        <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+        #define CHECK_FUNCTION_EXISTS malloc
+                                      ^
+        /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-kQV2f3/CheckFunctionExists.c:7:3: note: 'malloc' is a builtin with type 'void *(unsigned long)'
+        <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+        #define CHECK_FUNCTION_EXISTS malloc
+                                      ^
+        1 warning generated.
+        Linking C executable cmTC_48f59
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48f59.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=malloc -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_48f59.dir/CheckFunctionExists.c.o -o cmTC_48f59  -ltcmalloc
+        ld: library 'tcmalloc' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_48f59] Error 1
+        make: *** [cmTC_48f59/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "build/_deps/leveldb-src/CMakeLists.txt:52 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for fdatasync"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-5LWnUo"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-5LWnUo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_FDATASYNC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-5LWnUo'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_84ca1/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_84ca1.dir/build.make CMakeFiles/cmTC_84ca1.dir/build
+        Building CXX object CMakeFiles/cmTC_84ca1.dir/CheckSymbolExists.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_84ca1.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_84ca1.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_84ca1.dir/CheckSymbolExists.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-5LWnUo/CheckSymbolExists.cxx
+        /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-5LWnUo/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'fdatasync'
+          return ((int*)(&fdatasync))[argc];
+                          ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_84ca1.dir/CheckSymbolExists.cxx.o] Error 1
+        make: *** [cmTC_84ca1/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "build/_deps/leveldb-src/CMakeLists.txt:53 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for F_FULLFSYNC"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-pIAaKe"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-pIAaKe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_FULLFSYNC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-pIAaKe'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_72e2d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_72e2d.dir/build.make CMakeFiles/cmTC_72e2d.dir/build
+        Building CXX object CMakeFiles/cmTC_72e2d.dir/CheckSymbolExists.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_72e2d.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_72e2d.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_72e2d.dir/CheckSymbolExists.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-pIAaKe/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_72e2d
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72e2d.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_72e2d.dir/CheckSymbolExists.cxx.o -o cmTC_72e2d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "build/_deps/leveldb-src/CMakeLists.txt:54 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for O_CLOEXEC"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-khLwyp"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-khLwyp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_O_CLOEXEC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-khLwyp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8299a/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8299a.dir/build.make CMakeFiles/cmTC_8299a.dir/build
+        Building CXX object CMakeFiles/cmTC_8299a.dir/CheckSymbolExists.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_8299a.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_8299a.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_8299a.dir/CheckSymbolExists.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-khLwyp/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_8299a
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8299a.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8299a.dir/CheckSymbolExists.cxx.o -o cmTC_8299a
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/CMakeLists.txt:83 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CLANG_THREAD_SAFETY"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-dmXw6T"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-dmXw6T"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CLANG_THREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-dmXw6T'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bfec2/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bfec2.dir/build.make CMakeFiles/cmTC_bfec2.dir/build
+        Building CXX object CMakeFiles/cmTC_bfec2.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CLANG_THREAD_SAFETY  -fno-exceptions -fno-rtti  -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wthread-safety -MD -MT CMakeFiles/cmTC_bfec2.dir/src.cxx.o -MF CMakeFiles/cmTC_bfec2.dir/src.cxx.o.d -o CMakeFiles/cmTC_bfec2.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-dmXw6T/src.cxx
+        Linking CXX executable cmTC_bfec2
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfec2.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bfec2.dir/src.cxx.o -o cmTC_bfec2
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/CMakeLists.txt:86 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test LEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-26H4EY"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-26H4EY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "LEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-26H4EY'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0796f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0796f.dir/build.make CMakeFiles/cmTC_0796f.dir/build
+        Building CXX object CMakeFiles/cmTC_0796f.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DLEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS  -fno-exceptions -fno-rtti  -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-missing-field-initializers -MD -MT CMakeFiles/cmTC_0796f.dir/src.cxx.o -MF CMakeFiles/cmTC_0796f.dir/src.cxx.o.d -o CMakeFiles/cmTC_0796f.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-26H4EY/src.cxx
+        Linking CXX executable cmTC_0796f
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0796f.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0796f.dir/src.cxx.o -o cmTC_0796f
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "build/_deps/leveldb-src/CMakeLists.txt:92 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE_CXX17_HAS_INCLUDE"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-uIOJ7v"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-uIOJ7v"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CXX17_HAS_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-uIOJ7v'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2abde/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2abde.dir/build.make CMakeFiles/cmTC_2abde.dir/build
+        Building CXX object CMakeFiles/cmTC_2abde.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX17_HAS_INCLUDE  -fno-exceptions -fno-rtti  -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_2abde.dir/src.cxx.o -MF CMakeFiles/cmTC_2abde.dir/src.cxx.o.d -o CMakeFiles/cmTC_2abde.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-uIOJ7v/src.cxx
+        Linking CXX executable cmTC_2abde
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2abde.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2abde.dir/src.cxx.o -o cmTC_2abde
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/_deps/leveldb-src/CMakeLists.txt:285 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-6D45Wi"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-6D45Wi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wstrict-prototypes"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-6D45Wi'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_73fec/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_73fec.dir/build.make CMakeFiles/cmTC_73fec.dir/build
+        Building C object CMakeFiles/cmTC_73fec.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -Wstrict-prototypes  -std=c11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_73fec.dir/src.c.o -MF CMakeFiles/cmTC_73fec.dir/src.c.o.d -o CMakeFiles/cmTC_73fec.dir/src.c.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-6D45Wi/src.c
+        Linking C executable cmTC_73fec
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73fec.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -Wstrict-prototypes  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_73fec.dir/src.c.o -o cmTC_73fec
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:125 (check_library_exists)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-HqSubf"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-HqSubf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wstrict-prototypes"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_LIB_RT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-HqSubf'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8cff6/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8cff6.dir/build.make CMakeFiles/cmTC_8cff6.dir/build
+        Building C object CMakeFiles/cmTC_8cff6.dir/CheckFunctionExists.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=shm_open -std=c11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_8cff6.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_8cff6.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_8cff6.dir/CheckFunctionExists.c.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-HqSubf/CheckFunctionExists.c
+        Linking C executable cmTC_8cff6
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cff6.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=shm_open -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8cff6.dir/CheckFunctionExists.c.o -o cmTC_8cff6  -lrt
+        ld: library 'rt' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_8cff6] Error 1
+        make: *** [cmTC_8cff6/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:174 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WALL"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-O8y0qA"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-O8y0qA"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WALL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-O8y0qA'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_25737/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_25737.dir/build.make CMakeFiles/cmTC_25737.dir/build
+        Building CXX object CMakeFiles/cmTC_25737.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -fno-exceptions -fno-rtti  -Wall -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wall -MD -MT CMakeFiles/cmTC_25737.dir/src.cxx.o -MF CMakeFiles/cmTC_25737.dir/src.cxx.o.d -o CMakeFiles/cmTC_25737.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-O8y0qA/src.cxx
+        Linking CXX executable cmTC_25737
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25737.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_25737.dir/src.cxx.o -o cmTC_25737
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:175 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WEXTRA"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-1Ob4j3"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-1Ob4j3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-1Ob4j3'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e9eda/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e9eda.dir/build.make CMakeFiles/cmTC_e9eda.dir/build
+        Building CXX object CMakeFiles/cmTC_e9eda.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -fno-exceptions -fno-rtti  -Wall  -Wextra -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wextra -MD -MT CMakeFiles/cmTC_e9eda.dir/src.cxx.o -MF CMakeFiles/cmTC_e9eda.dir/src.cxx.o.d -o CMakeFiles/cmTC_e9eda.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-1Ob4j3/src.cxx
+        Linking CXX executable cmTC_e9eda
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9eda.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e9eda.dir/src.cxx.o -o cmTC_e9eda
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:176 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHADOW"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-dkbqZ6"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-dkbqZ6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-dkbqZ6'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0ebfa/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0ebfa.dir/build.make CMakeFiles/cmTC_0ebfa.dir/build
+        Building CXX object CMakeFiles/cmTC_0ebfa.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wshadow -MD -MT CMakeFiles/cmTC_0ebfa.dir/src.cxx.o -MF CMakeFiles/cmTC_0ebfa.dir/src.cxx.o.d -o CMakeFiles/cmTC_0ebfa.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-dkbqZ6/src.cxx
+        Linking CXX executable cmTC_0ebfa
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ebfa.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0ebfa.dir/src.cxx.o -o cmTC_0ebfa
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:177 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-Ga4ZFf"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-Ga4ZFf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WFLOAT_EQUAL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-Ga4ZFf'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7b9b4/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7b9b4.dir/build.make CMakeFiles/cmTC_7b9b4.dir/build
+        Building CXX object CMakeFiles/cmTC_7b9b4.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wfloat-equal -MD -MT CMakeFiles/cmTC_7b9b4.dir/src.cxx.o -MF CMakeFiles/cmTC_7b9b4.dir/src.cxx.o.d -o CMakeFiles/cmTC_7b9b4.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-Ga4ZFf/src.cxx
+        Linking CXX executable cmTC_7b9b4
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b9b4.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7b9b4.dir/src.cxx.o -o cmTC_7b9b4
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:179 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WERROR"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-h8n3CH"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-h8n3CH"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-h8n3CH'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_007bf/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_007bf.dir/build.make CMakeFiles/cmTC_007bf.dir/build
+        Building CXX object CMakeFiles/cmTC_007bf.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Werror -MD -MT CMakeFiles/cmTC_007bf.dir/src.cxx.o -MF CMakeFiles/cmTC_007bf.dir/src.cxx.o.d -o CMakeFiles/cmTC_007bf.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-h8n3CH/src.cxx
+        Linking CXX executable cmTC_007bf
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_007bf.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_007bf.dir/src.cxx.o -o cmTC_007bf
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:183 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-kA0lJS"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-kA0lJS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-kA0lJS'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8d2ec/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8d2ec.dir/build.make CMakeFiles/cmTC_8d2ec.dir/build
+        Building CXX object CMakeFiles/cmTC_8d2ec.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wsuggest-override -MD -MT CMakeFiles/cmTC_8d2ec.dir/src.cxx.o -MF CMakeFiles/cmTC_8d2ec.dir/src.cxx.o.d -o CMakeFiles/cmTC_8d2ec.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-kA0lJS/src.cxx
+        Linking CXX executable cmTC_8d2ec
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d2ec.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8d2ec.dir/src.cxx.o -o cmTC_8d2ec
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:185 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-WgsaI5"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-WgsaI5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-WgsaI5'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cf70b/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cf70b.dir/build.make CMakeFiles/cmTC_cf70b.dir/build
+        Building CXX object CMakeFiles/cmTC_cf70b.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -pedantic -MD -MT CMakeFiles/cmTC_cf70b.dir/src.cxx.o -MF CMakeFiles/cmTC_cf70b.dir/src.cxx.o.d -o CMakeFiles/cmTC_cf70b.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-WgsaI5/src.cxx
+        Linking CXX executable cmTC_cf70b
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf70b.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cf70b.dir/src.cxx.o -o cmTC_cf70b
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:186 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-CiPq2R"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-CiPq2R"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-CiPq2R'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a276e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a276e.dir/build.make CMakeFiles/cmTC_a276e.dir/build
+        Building CXX object CMakeFiles/cmTC_a276e.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -pedantic-errors -MD -MT CMakeFiles/cmTC_a276e.dir/src.cxx.o -MF CMakeFiles/cmTC_a276e.dir/src.cxx.o.d -o CMakeFiles/cmTC_a276e.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-CiPq2R/src.cxx
+        Linking CXX executable cmTC_a276e
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a276e.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a276e.dir/src.cxx.o -o cmTC_a276e
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:187 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-SciqwB"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-SciqwB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-SciqwB'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0eb8e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0eb8e.dir/build.make CMakeFiles/cmTC_0eb8e.dir/build
+        Building CXX object CMakeFiles/cmTC_0eb8e.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wshorten-64-to-32 -MD -MT CMakeFiles/cmTC_0eb8e.dir/src.cxx.o -MF CMakeFiles/cmTC_0eb8e.dir/src.cxx.o.d -o CMakeFiles/cmTC_0eb8e.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-SciqwB/src.cxx
+        Linking CXX executable cmTC_0eb8e
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0eb8e.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0eb8e.dir/src.cxx.o -o cmTC_0eb8e
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:188 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-wfAqXe"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-wfAqXe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-wfAqXe'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f9f29/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f9f29.dir/build.make CMakeFiles/cmTC_f9f29.dir/build
+        Building CXX object CMakeFiles/cmTC_f9f29.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -fstrict-aliasing -MD -MT CMakeFiles/cmTC_f9f29.dir/src.cxx.o -MF CMakeFiles/cmTC_f9f29.dir/src.cxx.o.d -o CMakeFiles/cmTC_f9f29.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-wfAqXe/src.cxx
+        Linking CXX executable cmTC_f9f29
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9f29.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f9f29.dir/src.cxx.o -o cmTC_f9f29
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:191 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-SBn2AR"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-SBn2AR"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-SBn2AR'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8ecd3/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8ecd3.dir/build.make CMakeFiles/cmTC_8ecd3.dir/build
+        Building CXX object CMakeFiles/cmTC_8ecd3.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-deprecated-declarations -MD -MT CMakeFiles/cmTC_8ecd3.dir/src.cxx.o -MF CMakeFiles/cmTC_8ecd3.dir/src.cxx.o.d -o CMakeFiles/cmTC_8ecd3.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-SBn2AR/src.cxx
+        Linking CXX executable cmTC_8ecd3
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ecd3.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8ecd3.dir/src.cxx.o -o cmTC_8ecd3
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:200 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-NZbEp8"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-NZbEp8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-NZbEp8'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4edb8/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4edb8.dir/build.make CMakeFiles/cmTC_4edb8.dir/build
+        Building CXX object CMakeFiles/cmTC_4edb8.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-deprecated -MD -MT CMakeFiles/cmTC_4edb8.dir/src.cxx.o -MF CMakeFiles/cmTC_4edb8.dir/src.cxx.o.d -o CMakeFiles/cmTC_4edb8.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-NZbEp8/src.cxx
+        Linking CXX executable cmTC_4edb8
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4edb8.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4edb8.dir/src.cxx.o -o cmTC_4edb8
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:203 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_FNO_EXCEPTIONS"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-FWycGl"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-FWycGl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_FNO_EXCEPTIONS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-FWycGl'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cccc0/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cccc0.dir/build.make CMakeFiles/cmTC_cccc0.dir/build
+        Building CXX object CMakeFiles/cmTC_cccc0.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -fno-exceptions -MD -MT CMakeFiles/cmTC_cccc0.dir/src.cxx.o -MF CMakeFiles/cmTC_cccc0.dir/src.cxx.o.d -o CMakeFiles/cmTC_cccc0.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-FWycGl/src.cxx
+        Linking CXX executable cmTC_cccc0
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cccc0.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cccc0.dir/src.cxx.o -o cmTC_cccc0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:208 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-vTMFIU"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-vTMFIU"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-vTMFIU'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_812ae/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_812ae.dir/build.make CMakeFiles/cmTC_812ae.dir/build
+        Building CXX object CMakeFiles/cmTC_812ae.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wstrict-aliasing -MD -MT CMakeFiles/cmTC_812ae.dir/src.cxx.o -MF CMakeFiles/cmTC_812ae.dir/src.cxx.o.d -o CMakeFiles/cmTC_812ae.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-vTMFIU/src.cxx
+        Linking CXX executable cmTC_812ae
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_812ae.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_812ae.dir/src.cxx.o -o cmTC_812ae
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:213 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WD654"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-ruCzLl"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-ruCzLl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WD654"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-ruCzLl'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c2314/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c2314.dir/build.make CMakeFiles/cmTC_c2314.dir/build
+        Building CXX object CMakeFiles/cmTC_c2314.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -wd654 -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -wd654 -MD -MT CMakeFiles/cmTC_c2314.dir/src.cxx.o -MF CMakeFiles/cmTC_c2314.dir/src.cxx.o.d -o CMakeFiles/cmTC_c2314.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-ruCzLl/src.cxx
+        clang: error: unknown argument: '-wd654'
+        clang: error: unknown argument: '-wd654'
+        make[1]: *** [CMakeFiles/cmTC_c2314.dir/src.cxx.o] Error 1
+        make: *** [cmTC_c2314/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:214 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-Cpww47"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-Cpww47"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-Cpww47'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b0883/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b0883.dir/build.make CMakeFiles/cmTC_b0883.dir/build
+        Building CXX object CMakeFiles/cmTC_b0883.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wthread-safety -MD -MT CMakeFiles/cmTC_b0883.dir/src.cxx.o -MF CMakeFiles/cmTC_b0883.dir/src.cxx.o.d -o CMakeFiles/cmTC_b0883.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-Cpww47/src.cxx
+        Linking CXX executable cmTC_b0883
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0883.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b0883.dir/src.cxx.o -o cmTC_b0883
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:216 (cxx_feature_check)"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeTmp"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_THREAD_SAFETY_ATTRIBUTES"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_eea93/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_eea93.dir/build.make CMakeFiles/cmTC_eea93.dir/build
+        Building CXX object CMakeFiles/cmTC_eea93.dir/thread_safety_attributes.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/include -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_eea93.dir/thread_safety_attributes.cpp.o -MF CMakeFiles/cmTC_eea93.dir/thread_safety_attributes.cpp.o.d -o CMakeFiles/cmTC_eea93.dir/thread_safety_attributes.cpp.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/thread_safety_attributes.cpp
+        Linking CXX executable cmTC_eea93
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eea93.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_eea93.dir/thread_safety_attributes.cpp.o -o cmTC_eea93
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_THREAD_SAFETY_ATTRIBUTES"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:265 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_COVERAGE"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-VQaEzU"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-VQaEzU"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_COVERAGE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-VQaEzU'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_066e4/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_066e4.dir/build.make CMakeFiles/cmTC_066e4.dir/build
+        Building CXX object CMakeFiles/cmTC_066e4.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety  --coverage -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   --coverage -MD -MT CMakeFiles/cmTC_066e4.dir/src.cxx.o -MF CMakeFiles/cmTC_066e4.dir/src.cxx.o.d -o CMakeFiles/cmTC_066e4.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-VQaEzU/src.cxx
+        Linking CXX executable cmTC_066e4
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_066e4.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety  --coverage -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_066e4.dir/src.cxx.o -o cmTC_066e4
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:294 (cxx_feature_check)"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeTmp"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d416c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d416c.dir/build.make CMakeFiles/cmTC_d416c.dir/build
+        Building CXX object CMakeFiles/cmTC_d416c.dir/std_regex.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_d416c.dir/std_regex.cpp.o -MF CMakeFiles/cmTC_d416c.dir/std_regex.cpp.o.d -o CMakeFiles/cmTC_d416c.dir/std_regex.cpp.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/std_regex.cpp
+        Linking CXX executable cmTC_d416c
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d416c.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d416c.dir/std_regex.cpp.o -o cmTC_d416c
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:295 (cxx_feature_check)"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeTmp"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_aff4c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_aff4c.dir/build.make CMakeFiles/cmTC_aff4c.dir/build
+        Building CXX object CMakeFiles/cmTC_aff4c.dir/gnu_posix_regex.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_aff4c.dir/gnu_posix_regex.cpp.o -MF CMakeFiles/cmTC_aff4c.dir/gnu_posix_regex.cpp.o.d -o CMakeFiles/cmTC_aff4c.dir/gnu_posix_regex.cpp.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/gnu_posix_regex.cpp
+        /Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/gnu_posix_regex.cpp:1:10: fatal error: 'gnuregex.h' file not found
+        #include <gnuregex.h>
+                 ^~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_aff4c.dir/gnu_posix_regex.cpp.o] Error 1
+        make: *** [cmTC_aff4c/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_GNU_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:296 (cxx_feature_check)"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeTmp"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ea2e2/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ea2e2.dir/build.make CMakeFiles/cmTC_ea2e2.dir/build
+        Building CXX object CMakeFiles/cmTC_ea2e2.dir/posix_regex.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_ea2e2.dir/posix_regex.cpp.o -MF CMakeFiles/cmTC_ea2e2.dir/posix_regex.cpp.o.d -o CMakeFiles/cmTC_ea2e2.dir/posix_regex.cpp.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/posix_regex.cpp
+        Linking CXX executable cmTC_ea2e2
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea2e2.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ea2e2.dir/posix_regex.cpp.o -o cmTC_ea2e2
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:305 (cxx_feature_check)"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeTmp"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_eca7c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_eca7c.dir/build.make CMakeFiles/cmTC_eca7c.dir/build
+        Building CXX object CMakeFiles/cmTC_eca7c.dir/steady_clock.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_eca7c.dir/steady_clock.cpp.o -MF CMakeFiles/cmTC_eca7c.dir/steady_clock.cpp.o.d -o CMakeFiles/cmTC_eca7c.dir/steady_clock.cpp.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/steady_clock.cpp
+        Linking CXX executable cmTC_eca7c
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eca7c.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_eca7c.dir/steady_clock.cpp.o -o cmTC_eca7c
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/leveldb-src/third_party/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/leveldb-src/third_party/benchmark/CMakeLists.txt:309 (cxx_feature_check)"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeTmp"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/Modules;/Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_PTHREAD_AFFINITY"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f8851/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f8851.dir/build.make CMakeFiles/cmTC_f8851.dir/build
+        Building CXX object CMakeFiles/cmTC_f8851.dir/pthread_affinity.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety  -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_f8851.dir/pthread_affinity.cpp.o -MF CMakeFiles/cmTC_f8851.dir/pthread_affinity.cpp.o.d -o CMakeFiles/cmTC_f8851.dir/pthread_affinity.cpp.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/pthread_affinity.cpp
+        /Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/pthread_affinity.cpp:3:3: error: unknown type name 'cpu_set_t'
+          cpu_set_t set;
+          ^
+        /Users/guojinhe/Desktop/leveldb_tutorial/build/_deps/leveldb-src/third_party/benchmark/cmake/pthread_affinity.cpp:5:23: error: use of undeclared identifier 'CPU_SETSIZE'
+          for (int i = 0; i < CPU_SETSIZE; ++i) {
+                              ^
+        2 errors generated.
+        make[1]: *** [CMakeFiles/cmTC_f8851.dir/pthread_affinity.cpp.o] Error 1
+        make: *** [cmTC_f8851/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_PTHREAD_AFFINITY"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "build/_deps/leveldb-src/CMakeLists.txt:444 (check_library_exists)"
+    checks:
+      - "Looking for sqlite3_open in sqlite3"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-ObUcn8"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-ObUcn8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wstrict-prototypes"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_SQLITE3"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-ObUcn8'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4f36a/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4f36a.dir/build.make CMakeFiles/cmTC_4f36a.dir/build
+        Building C object CMakeFiles/cmTC_4f36a.dir/CheckFunctionExists.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=sqlite3_open -std=c11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_4f36a.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_4f36a.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_4f36a.dir/CheckFunctionExists.c.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-ObUcn8/CheckFunctionExists.c
+        Linking C executable cmTC_4f36a
+        /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f36a.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=sqlite3_open -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4f36a.dir/CheckFunctionExists.c.o -o cmTC_4f36a  -lsqlite3
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "build/_deps/leveldb-src/CMakeLists.txt:455 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE_KYOTOCABINET"
+    directories:
+      source: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-9yWccd"
+      binary: "/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-9yWccd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-exceptions -fno-rtti"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "HAVE_KYOTOCABINET"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-9yWccd'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_061d2/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_061d2.dir/build.make CMakeFiles/cmTC_061d2.dir/build
+        Building CXX object CMakeFiles/cmTC_061d2.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_KYOTOCABINET  -fno-exceptions -fno-rtti  -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_061d2.dir/src.cxx.o -MF CMakeFiles/cmTC_061d2.dir/src.cxx.o.d -o CMakeFiles/cmTC_061d2.dir/src.cxx.o -c /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-9yWccd/src.cxx
+        /Users/guojinhe/Desktop/leveldb_tutorial/build/CMakeFiles/CMakeScratch/TryCompile-9yWccd/src.cxx:2:10: fatal error: 'kcpolydb.h' file not found
+        #include <kcpolydb.h>
+                 ^~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_061d2.dir/src.cxx.o] Error 1
+        make: *** [cmTC_061d2/fast] Error 2
+        
+      exitCode: 2
+...
